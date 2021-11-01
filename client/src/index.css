@@ -1,0 +1,79 @@
+.customworkout{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.nutrition {
+  padding-bottom: 2em;
+}
+.notfound{
+  background: linear-gradient(to top, lightblue, darkblue);
+  min-height: 400px;
+}
+.nutritionlog{
+  padding-bottom: 1em;
+}
+
+.register{
+  padding-bottom: 1em;
+}
+
+.login{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.trackworkout{
+  padding-bottom: 1em;
+}
+
+.smallInput{
+  width: 150px !important;
+}
+
+.ui.inverted.vertical.masthead.center.aligned.segment{
+  background: transparent 50% url('./contents/images/gym3.jpeg') fixed;
+  min-height: 600px;
+}
+.toggle-btn{
+  visibility: hidden;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+.error{
+  background: red;
+  font-size: 1em;
+}
+.ui.dimmer.modals.page.transition.visible.active{
+  display: flex !important;
+}
+.ui.fullscreen.demo.modal.transition.visible.active{
+  display: block !important;
+}
+.inputError{
+  border: 3px solid red;
+}
+
+@media only screen and (max-width: 767px) {
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .toggle-btn{
+    height: 50px;
+    width: 50px;
+    visibility: visible;
+  }
+  .show{
+    display: inline;
+  }
+  .hide{
+    display: none !important;
+  }
+}
